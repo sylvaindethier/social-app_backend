@@ -1,0 +1,17 @@
+### Create a User
+POST http://localhost:3000/user/create
+
+### Read a User
+### Read the User "admin" (username)
+GET http://localhost:3000/user/read/admin
+
+### Update a User
+### Update the auth User
+#POST http://localhost:3000/user/update
+
+### Delete a User
+### Delete the User "foo" (username)
+#POST http://localhost:3000/user/delete/foo
+
+### Find some User
+GET http://localhost:3000/user/find
